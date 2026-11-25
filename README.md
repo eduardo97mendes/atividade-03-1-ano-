@@ -27,7 +27,7 @@ Os arquivos já estão soltos neste repositório, **não precisa descompactar na
 
 ## 🎯 Objetivo e resultado esperado
 
-A página final deverá apresentar a **mesma organização e a mesma identidade visual do PDF**: marca em verde com destaque laranja, menu horizontal, banner com foto, três cartões de serviços, seção Sobre, faixa verde-clara de diferenciais, três depoimentos fictícios, contato com formulário e rodapé verde-escuro. **Não é uma atividade de criar cores novas**: neste desafio, a fidelidade ao modelo do cliente será avaliada.
+A página final deverá apresentar a **mesma organização e a mesma identidade visual do PDF**: marca em verde com destaque laranja, menu horizontal, banner com foto, três cartões de serviços, seção Sobre, faixa verde-clara de diferenciais, três depoimentos fictícios, contato com formulário e rodapé verde-escuro. Primeiro deixe a página **igual ao modelo**; depois você pode **personalizar** (veja a seção 🎨 abaixo), desde que o resultado continue parecido com a landing page do modelo.
 
 Em `css/style.css`, **uma das três opções de cada questão corresponde ao estilo do modelo**. Os valores precisam ser descobertos observando o PDF, testando e comparando. A resposta correta **não está marcada**.
 
@@ -70,9 +70,9 @@ Atividade-03-Educacao/
 3. Em cada propriedade do CSS, **leia as opções A, B e C** e digite **o valor completo escolhido** depois dos `:`. Ex.: `display: flex;`. **Não escreva `display: A;`**.
 4. **Não remova o ponto e vírgula (`;`), as chaves `{ }`, os seletores, os comentários explicativos e os blocos `@media`.**
 5. **Não adicione regras no final do CSS para esconder erros** e não substitua `style.css` por um CSS pronto. A atividade exige experimentar, corrigir e compreender os comandos.
-6. No `index.html`, **substitua todos os `___` por textos coerentes com o PDF**, preservando tags, classes, IDs e caminhos das imagens. Não mude o `href` dos links de navegação.
+6. No `index.html`, **substitua todos os `___` por textos coerentes com o PDF** (depois você pode adaptar os textos), preservando tags, classes, IDs e caminhos das imagens. Não mude o `href` dos links de navegação.
 7. Respeite a ordem de importação: no `<head>`, **`base.css` antes de `style.css`**. Não inverta e não apague as duas linhas.
-8. **Preserve a paleta de cores e o layout final do PDF**; versões com cores diferentes não reproduzem a solicitação do cliente.
+8. **Preserve a estrutura e o layout do PDF**: mesmas seções, na mesma ordem e com a mesma organização. Cores, imagens e textos podem ser personalizados (seção 🎨).
 9. **Teste a página no computador e no celular** (F12 → alternar dispositivo). Ajuste as opções dentro dos blocos `@media` para caber corretamente.
 10. Os depoimentos são **fictícios**; mantenha essa identificação. O formulário é **apenas demonstrativo**, sem PHP/banco de dados nesta etapa.
 
@@ -94,6 +94,19 @@ display: flex;      /* DEPOIS: um valor CSS, não a letra B */
 ```
 
 **Observação importante sobre as variáveis:** preencher `background: var(--green);` só mostrará a cor esperada depois que `--green` tiver um valor válido em `:root`. Por isso, comece pela paleta; não significa que a ligação do CSS esteja quebrada.
+
+## 🎨 Personalização (depois de ficar igual ao modelo)
+
+Com a página **pronta e igual ao `modelo.pdf`**, você pode deixar com a sua cara:
+
+| Pode mudar ✅ | Não pode mudar ❌ |
+| --- | --- |
+| Os **valores das cores** no `:root` (`--green`, `--orange`, `--cream`...) | A estrutura do HTML: tags, classes, IDs e a ordem das seções |
+| As **imagens** da pasta `img/` (mesmo nome do arquivo, ou ajuste o `src`) | Os `display`, `grid`, `flex` e tamanhos que montam o layout |
+| Os **textos** (nome da empresa, serviços, depoimentos), mantendo o tema | Os blocos `@media` (a versão celular tem que continuar funcionando) |
+| O texto alternativo `alt` das imagens novas | Os arquivos `base.css` e a ordem dos `<link>` no `<head>` |
+
+O resultado final tem que continuar **parecido com a landing page do modelo**: menu, banner, três serviços, Sobre, diferenciais, depoimentos, contato e rodapé, na mesma organização.
 
 ## 🗺️ Ordem de trabalho recomendada
 
@@ -130,14 +143,30 @@ Entregue a pasta ou publique o trabalho no **seu repositório do GitHub** com:
 - [ ] `css/style.css` com as alternativas resolvidas, sem `: ;` nas declarações;
 - [ ] `css/base.css` preservado, sem mudanças;
 - [ ] imagens da pasta `img/` carregando corretamente;
-- [ ] cores, tamanhos e composição coerentes com as duas páginas de `modelo.pdf`;
+- [ ] composição e organização parecidas com as duas páginas de `modelo.pdf` (cores e imagens podem ser personalizadas);
 - [ ] alinhamento correto de menu, três serviços, diferenciais, depoimentos, formulário e rodapé;
 - [ ] versão responsiva testada no celular;
 - [ ] imagem da página pronta (captura de tela) comparada ao PDF.
 
-**Sugestão de critérios (100 pontos):** HTML e textos 20; preenchimento correto das propriedades CSS 30; fidelidade visual e cores 25; responsividade 15; organização, arquivos e publicação 10.
 
-Para entregar no GitHub: crie um repositório próprio, envie **toda** a pasta do projeto e mantenha os nomes dos arquivos. Na descrição da atividade, mencione o professor no formato `@eduardo97mendes` (marcação em texto) e adicione uma captura de tela da página pronta.
+### 📤 Como postar no GitHub e me avisar
+
+**1. Crie o seu repositório**
+1. Entre na sua conta do GitHub e clique em **+** (canto superior direito) → **New repository**.
+2. Nome sugerido: `atividade-03-educacao-SEU-NOME`. Marque **Public** e clique em **Create repository**.
+
+**2. Envie a pasta do projeto**
+1. No repositório novo, clique em **uploading an existing file** (ou **Add file → Upload files**).
+2. Abra a pasta do projeto no computador, selecione **tudo o que está dentro dela** (`index.html`, `css`, `img`, ...) e **arraste** para a página do GitHub.
+3. Confira se as pastas `css` e `img` apareceram na lista e clique em **Commit changes**.
+
+**3. Me avise abrindo uma Issue (eu recebo notificação)**
+1. Abra: **https://github.com/eduardo97mendes/atividade-03-1-ano-/issues/new**
+2. **Título:** `Entrega Atividade 03 - Seu Nome Completo - 1º ano`.
+3. **Texto:** cole o **link do seu repositório**, escreva **@eduardo97mendes** e, se quiser, arraste uma captura de tela da página pronta.
+4. Clique em **Submit new issue** (ou **Create**).
+
+> Escrever `@eduardo97mendes` **dentro da Issue** faz chegar uma notificação para mim. Escrever o @ só no README do seu repositório **não** notifica. Se não conseguir abrir a Issue, mande o link do seu repositório pelo canal da turma.
 
 ---
 

@@ -25,6 +25,14 @@ Os arquivos já estão soltos neste repositório, **não precisa descompactar na
 
 > **Você é o(a) desenvolvedor(a) contratado(a) pela EducaCão**, uma empresa fictícia de educação canina. O cliente entregou o arquivo **`modelo.pdf`**, que deve ser reproduzido visualmente no projeto final. Sua missão é montar os textos no HTML e reconstruir o visual com as alternativas do CSS.
 
+## 📘 Versão com explicação (para tirar dúvidas)
+
+Na pasta **`explicacao/`** está a **versão com explicação** para você entender cada parte:
+
+- **`Explicacao_HTML_CSS.pdf`**: a correção da página na ordem do projeto, com o código de cada seção e desenhos explicando cada propriedade do CSS.
+
+Ela mostra as respostas, mas o objetivo é **entender**: tente primeiro, use o PDF quando travar e confira o porquê de cada valor. A pasta `explicacao/` não precisa ir para o seu repositório de entrega.
+
 ## 🎯 Objetivo e resultado esperado
 
 A página final deverá apresentar a **mesma organização e a mesma identidade visual do PDF**: marca em verde com destaque laranja, menu horizontal, banner com foto, três cartões de serviços, seção Sobre, faixa verde-clara de diferenciais, três depoimentos fictícios, contato com formulário e rodapé verde-escuro. Primeiro deixe a página **igual ao modelo**; depois você pode **personalizar** (veja a seção 🎨 abaixo), desde que o resultado continue parecido com a landing page do modelo.
@@ -38,6 +46,7 @@ Atividade-03-Educacao/
 ├── index.html                ← complete os ___ do HTML
 ├── modelo.pdf                ← referência visual do cliente
 ├── README.md                 ← instruções e regras
+├── explicacao/               ← PDF(s) com a explicação (para tirar dúvidas)
 ├── css/
 │   ├── base.css              ← base neutra para a visualização (NÃO EDITAR)
 │   └── style.css             ← SEU EXERCÍCIO: preencher alternativas

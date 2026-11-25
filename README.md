@@ -1,4 +1,4 @@
-# 🐾 Atividade 03 — Landing Page EducaCão (HTML5 e CSS3)
+# 🐾 Atividade 03 · 1º ano · Landing Page EducaCão (HTML5 e CSS3)
 
 > 📅 **Prazo de entrega: de 30/11 a 04/12.** Trabalhos entregues depois de 04/12 não serão aceitos.
 

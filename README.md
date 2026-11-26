@@ -44,6 +44,8 @@ Publique no **seu repositório do GitHub**:
    - **Texto:** o **link do seu repositório** e **@eduardo97mendes** (assim eu recebo a notificação).
 4. Clique em **Submit new issue**.
 
+> Não conseguiu abrir a Issue? Me envie o **link do seu repositório pelo WhatsApp**.
+
 ## 🏠 Faltou à aula ou é aluno do RAD?
 
 - **Termine em casa** seguindo este README e o PDF, publique no seu GitHub e envie o **link do repositório** pela **Issue** e/ou pelo **WhatsApp**.
